@@ -23,7 +23,7 @@ class ETPlugin_ReportBug extends ETPlugin {
 
 public function handler_init($sender)
 {
-	$sender->addToMenu("meta", "reportBug", "<a href='mailto:yuriqueen@asia.com' target='_top'>".T("Report Bug")."</a>");
+	$sender->addToMenu("meta", "reportBug", "<a href='mailto:example@email.com' target='_top'>".T("Report Bug")."</a>");
 }
 
 }
